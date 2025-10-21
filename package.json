@@ -1,0 +1,33 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "description": "this is backend for vidtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NallyTHEdude/Udemy-VidTube-Backend.git"
+  },
+  "keywords": [
+    "mongoose",
+    "express",
+    "backend"
+  ],
+  "author": "Nawaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NallyTHEdude/Udemy-VidTube-Backend/issues"
+  },
+  "homepage": "https://github.com/NallyTHEdude/Udemy-VidTube-Backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  }
+}
